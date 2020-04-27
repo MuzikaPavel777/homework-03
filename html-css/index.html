@@ -4,125 +4,161 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&family=Ubuntu:ital,wght@0,400;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="module-03/css/normalize.css" />
-    <link rel="stylesheet" href="module-03/css/styles.css" />
-    <title><homework-3></title>
+    <link rel="stylesheet" href="module-04/css/normalize.css" />
+    <link rel="stylesheet" href="module-04/css/styles.css" />
+    <title><homework-4></title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <nav class="page-nav">
-          <ul class="site-navigation">
-            <li><a href="#">Lifestyle</a></li>
-            <li><a href="#">Photodiary</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Travel</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation clearfix">
+          <p class="logo">Mart</p>
+          <ul class="navigation-list clearfix">
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">Home</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">About Us</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">Page</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">Shop</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">Blog</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="#" class="navigation-list-link">Contact Us</a>
+            </li>
           </ul>
         </nav>
-      </header>
-      <main>
-        <h1 class="hidden"></h1>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/1.jpg"
-            alt="lifestyle"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Lifestyle</p>
-          <h2 class="content-title">More than just a music festival</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/2.jpg"
-            alt="lifestyle"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Lifestyle</p>
-          <h2 class="content-title">Life tastes better with coffee</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/3.jpg"
-            alt="photodiary"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Photodiary</p>
-          <h2 class="content-title">Amerikan dream</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/4.jpg"
-            alt="photodiary"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Photodiary</p>
-          <h2 class="content-title">A day exploring the Alps</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/5.jpg"
-            alt="photodiary"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Lifestyle</p>
-          <h2 class="content-title">Top 10 song for running</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <article class="features">
-          <img
-            class="content-image"
-            src="./img/6.jpg"
-            alt="photodiary"
-            width="420"
-            height="280"
-          />
-          <p class="content-name">Lifestyle</p>
-          <h2 class="content-title">Cold winter days</h2>
-          <p class="content-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            maxime ipsa magnam eius, consequuntur praesentium nam reprehenderit
-            dolore debitis numquam magni. Rem amet quia facilis.
-          </p>
-        </article>
-        <button type="button">Load more</button>
-      </main>
-    </div>
+      </div>
+    </header>
+    <main>
+      <section class="products">
+        <div class="container clearfix">
+          <h1 class="products-title">FEATURED PRODUCTS</h1>
+          <ul class="products-list">
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/1.png"
+                  alt="Womens shoes"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">Blue Tshirt</a>
+              </h2>
+              <span class="product-prise">$26</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/2.png"
+                  alt="Womens belt"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">WOMAN shirt</a>
+              </h2>
+              <span class="product-prise">$31</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/3.png"
+                  alt="hat"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">YELLOW Tshirt</a>
+              </h2>
+              <span class="product-prise">$21</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/4.png"
+                  alt="women bag"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">Cool lingerie</a>
+              </h2>
+              <span class="product-prise">$56</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/5.png"
+                  alt="Womens shoes"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">Blue Tshirt</a>
+              </h2>
+              <span class="product-prise">$26</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/6.png"
+                  alt="Womens belt"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">WOMAN shirt</a>
+              </h2>
+              <span class="product-prise">$31</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/7.png"
+                  alt="hat"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">YELLOW Tshirt</a>
+              </h2>
+              <span class="product-prise">$21</span>
+            </li>
+            <li class="products-list-item">
+              <a href="#" class="products-list-item-link">
+                <img
+                  src="img/8.png"
+                  alt="women bag"
+                  height="282"
+                  width="255"
+                  class="products-list-item-image"
+              /></a>
+              <h2 class="products-list-item-title">
+                <a href="#" class="product-name">Cool lingerie</a>
+              </h2>
+              <span class="product-prise">$56</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
